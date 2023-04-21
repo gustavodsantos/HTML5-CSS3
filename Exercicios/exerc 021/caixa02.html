@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: dimgray;
+            padding: 3px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+        }
+        article > aside{
+            background-color: rgb(165, 165, 165);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="https://administradores.com.br/" target="_blank">portal administradores</a>
+            <a href="https://www.linkedin.com/in/gustavo-junior-dos-santos/" target="_blank">linkedin</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2>Artigo 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum vel accusantium voluptatem dignissimos. Quos tempore mollitia neque minima optio! Ipsum, nulla velit suscipit animi nisi vitae aspernatur maxime soluta sit.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati ducimus earum at eveniet animi officia consequatur fugiat esse doloremque, sapiente dignissimos soluta doloribus voluptatem voluptatibus maxime, dolor quam nulla corporis.</p>
+            </article>
+            <article>
+                <h2>Artigo 2</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem sit rerum totam labore inventore, aliquid odio qui fugit temporibus adipisci commodi? Exercitationem autem commodi rem laboriosam nulla unde est debitis.</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam, repudiandae ut obcaecati maxime inventore omnis alias corrupti qui nobis nesciunt asperiores. Possimus, ipsam necessitatibus! Perferendis illo commodi sed quae perspiciatis?</p>
+                <aside>
+                    <p>Escrito por Gustavo Junior dos Santos</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Gustavo Blog</p>
+    </footer>
+</body>
+</html>
