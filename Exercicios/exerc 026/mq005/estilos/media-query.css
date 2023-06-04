@@ -9,7 +9,7 @@ Desktops, large screens: 1025px — 1200px.
 Extra large screens, TV: 1201px, and more.
 */
 
-@media screen and (min-width: 510px) {
+@media screen and (min-width: 480px) {
     .material-symbols-outlined {
         display: none;
     }
